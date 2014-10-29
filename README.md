@@ -1,4 +1,5 @@
-== Chicago Eco House Project
+ Chicago Eco House Project
+ -------------------------
 
 Installation & Setup
 ====================
