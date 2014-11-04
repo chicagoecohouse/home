@@ -1,4 +1,5 @@
 Rails.application.configure do
+  config.action_dispatch.default_headers['X-Frame-Options'] = "ALLOW-FROM https://davidhabibnpsp-developer-edition.na11.force.com/gw_volunteers__volunteerssignupfs"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
