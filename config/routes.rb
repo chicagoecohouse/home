@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   root "site#home", as: "home"
 
-  get 'site/home'
-  get 'site/programs'
-  get 'site/team'
-  get 'site/donate'
-  get 'site/contact'
+  get "programs", to:"site#programs"
+  get "team", to:"site#team"
+  get "donate", to:"site#donate"
+  get "contact", to:"site#contact"
+  get "volunteer", to:"site#volunteer"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

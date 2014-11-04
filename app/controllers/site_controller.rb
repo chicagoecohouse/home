@@ -13,4 +13,7 @@ class SiteController < ApplicationController
 
   def contact
   end
+
+  def volunteer
+  end
 end
